@@ -1,0 +1,14 @@
+name: Walletspy Build
+on: [push]
+jobs:
+    buidl-containers:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 14.17.6
+            - uses: peaceiris/actions-gh-pages@v3
+              with:
+                  personal_token: ${{ secrets.PERSONAL_TOKEN }}
+                  publish_dir: ./docs
