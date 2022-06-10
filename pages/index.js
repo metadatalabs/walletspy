@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
-        <img src="/logo.png" />
+        <img src="https://raw.githubusercontent.com/Dra-gd/walletspy/main/public/logo.png" />
         <h1 className={styles.title}>
           Walletspy
         </h1>
