@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "BASE_PATH=\"/walletspy\" && next build && next export && rm -rf docs && mkdir docs && mv out/* docs/ && cp -r public/* docs/",
+    "export": "next build && next export && rm -rf docs && mkdir docs && mv out/* docs/",
     "lint": "next lint"
   },
   "dependencies": {
