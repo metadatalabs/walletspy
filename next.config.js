@@ -5,6 +5,7 @@ const nextConfig = {
     loader: 'imgix',
     path: '',
   },
+  basePath: '/docs',
 }
 
 module.exports = nextConfig
