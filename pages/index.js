@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
-        <img src={`${process.env.BASE_PATH}/logo.png`} />
+        <img src={`/logo.png`} />
         <h1 className={styles.title}>
           Walletspy
         </h1>
