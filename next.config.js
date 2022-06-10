@@ -1,6 +1,6 @@
 const nextConfig = {
   basePath: '/walletspy',
-  assetPrefix: '/walletspy',
+  assetPrefix: '/walletspy/',
   reactStrictMode: true,
   images: {
     loader: 'imgix',
