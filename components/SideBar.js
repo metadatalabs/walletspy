@@ -13,7 +13,7 @@ export default function SideBar(props){
         <Link href="/">
           <a>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', alignSelf: 'center'}}>
-          <img style={{maxWidth: 70, marginTop: 30}} src="/logo.png" />
+          <img style={{maxWidth: 70, marginTop: 30}} src={`${process.env.BASE_PATH}/logo.png`} />
           <h4>Walletspy</h4>
         </div>
         </a>
